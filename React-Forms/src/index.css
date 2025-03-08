@@ -1,0 +1,84 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+body{
+ height:100vh;
+ width:100vw;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+  color:black;
+}
+
+form{
+  width: 30vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  
+  
+  gap:10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: white;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+label{
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: monospace;
+}
+input{
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  border:2px solid #007bff;
+}
+button{
+  width: 100%;
+  height: 45px;
+  border: none;
+ border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top:20px;
+}
+
+img{
+  width: 30vw;
+  height: 75vh;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  border-radius:10px;
+  overflow: hidden;
+  width:58vw;
+  height: 72vh;
+  
+}
+.img-div{
+   width: 29vw;
+  height: 75vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
