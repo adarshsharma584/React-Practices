@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  background-color:rgb(2, 2, 41);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+.post-h1{
+  
+  font-size: 2.5rem;
+ 
+  margin-left:35px;
+  padding: 6px;
+  color:rgb(108, 238, 195);
+}
+.post-compartment {
+  padding: 20px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+li {
+  list-style: none;
+}
+.container {
+  height: 400px;
+  width: 360px;
+  background-color: rgb(1, 1, 53);
+  color: whitesmoke;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+  
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+ 
+  width: 100%;
+  height: 120px;
+  margin: 3px;
+  padding: 15px;
+}
+.post-para {
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  margin-top:15px;
+}
+ 
+span{
+  font-size: 25px;
+  color:rgb(108, 238, 195)
+}
+  
+
+.container-btn {
+  position: relative;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+  width: 100%;
+  margin: 7px;
+  
+}
+
+button {
+  height: 81%;
+  width: 99px;
+  margin: 30px;
+  border:none;
+  outline:none;
+  border-radius:3px;
+}
+button:hover {
+  background-color: rgb(104, 247, 199);
+  color: darkblue;
+  height:82%;
+  width:103px;
+  font-size:16px;
+  font-weight: bold;
+  border-radius: 20px;
+}
